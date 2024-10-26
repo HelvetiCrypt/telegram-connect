@@ -4,7 +4,7 @@ import { WriteContract, WriteContractData } from './components/WriteContract';
 import { SignMessage, SignMessageProps } from './components/SignMessage';
 import { Account } from './components/Account';
 import { Connect } from './components/Connect';
-import ReactJson from 'react-json-view';
+import ReactJson from '@microlink/react-json-view';
 import { getSchemaError, sendEvent } from './utils';
 
 export default function App() {
